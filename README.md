@@ -1,6 +1,7 @@
 # nami-apple-receip-validator
 
 A simple Python 3 CLI for validating an App Store Receipt via Apple's verifyReceipt service.
+This repository accompanies [this tutorial](https://www.namiml.com/blog/app-store-receipt-verification-tutorial)
 
 
 ### Production
