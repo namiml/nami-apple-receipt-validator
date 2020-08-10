@@ -1,0 +1,11 @@
+.venv
+.devdb/
+venv
+*.pyc
+staticfiles
+.env
+.DS_Store
+htmlcov/
+.coverage
+coverage.xml
+__pycache__/
