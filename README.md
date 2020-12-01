@@ -25,3 +25,9 @@ This is necessary to receive responses for receipts containing auto-renewnable s
 ```
 ./apple_receipt_validator.py  /path/to/base64_encoded_receipt -s your_app_shared_secret
 ```
+
+### Don't print responseBody to console
+
+```
+./apple_receipt_validator.py  /path/to/base64_encoded_receipt --quiet
+```
