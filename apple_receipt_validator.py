@@ -13,7 +13,7 @@ VERIFY_RECEIPT_STATUS[0] = "🎉 Receipt is valid"
 VERIFY_RECEIPT_STATUS[21002] = "💣 The encoded receipt is malformed"
 VERIFY_RECEIPT_STATUS[21004] = "🔐The shared secret does not match what's on file with Apple"
 VERIFY_RECEIPT_STATUS[21007] = "🔬 The receipt is from Sandbox. Add --use_sandbox"
-VERIFY_RECEIPT_STATUS[21010] = "🖥 The receipt is from Production. Remove --use_sandbox"
+VERIFY_RECEIPT_STATUS[21008] = "🖥 The receipt is from Production. Remove --use_sandbox"
 
 def verify_receipt(encoded_receipt, shared_secret, use_sandbox, show_response):
     if use_sandbox:
